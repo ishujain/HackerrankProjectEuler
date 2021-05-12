@@ -1,2 +1,2 @@
-# HackerrankProjectEuler
-HackerrankProjectEuler solutions 
+# RoadToFullStack
+
