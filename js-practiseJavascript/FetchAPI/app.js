@@ -6,7 +6,7 @@ document.getElementById('button3').addEventListener('click', getAPI);
 function getText() {
   fetch('getText.txt')
     .then(function (res) {
-      // console.log(res);
+      console.log(res);
       return res.text();
     })
     .then(function (data) {
