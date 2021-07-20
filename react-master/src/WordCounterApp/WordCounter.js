@@ -9,8 +9,8 @@ const WordCounter = () => {
   const keyPressEventHandler = (e) => {
     console.log('rukna nhi hai mickey');
     let content = e.target.value;
-    let wordsCount = content.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '').trim().split(" ");
-    let charCount = content.replace(/[&\/\\#,+()$~%.'":*?<>{} ]/g, '').split("");
+    let wordsCount = content.replace(/[&/\\#,+()$~%.'":*?<>{}]/g,'').trim().split(" ");
+    let charCount = content.replace(/[&/\\#,+()$~%.'":*?<>{} ]/g,'').split("");
     let readingTime = (wordsCount.length / 100) + "mins";
     setWordsCount(wordsCount.length);
     setCharCount(charCount.length);
